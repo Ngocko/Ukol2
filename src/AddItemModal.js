@@ -1,6 +1,6 @@
 // src/AddItemModal.js
 import React from 'react';
-import './Modal.css'; // Make sure to use the same CSS file for styling
+import './Modal.css';
 
 const AddItemModal = ({ isOpen, onClose, onAddItem, newItemName, setNewItemName }) => {
   if (!isOpen) return null;
