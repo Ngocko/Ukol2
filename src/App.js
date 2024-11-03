@@ -8,8 +8,7 @@ function App() {
     <>
     <Router>
       <Routes>
-        <Route path="/list" element={<ShoppingListDetailPage/>} />
-        <Route path="*" element={<div>Page Not Found</div>} />
+        <Route path="*" element={<ShoppingListDetailPage/>} />
       </Routes>
     </Router>
     </>
